@@ -34,10 +34,16 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 h6 {
   padding: 10px 0 20px 0;
+}
+
+.character-card {
+  border: 2px solid rgb(41, 134, 246);
+  padding: 20px;
 }
 
 @media only screen and (max-width: 576px) {
